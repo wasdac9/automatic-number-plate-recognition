@@ -33,5 +33,19 @@ The training dataset consisted of 400 images along with their class and bounding
 ### Validation:
 
 The validation dataset consisted of 100 images along with their class and bounding box details in a txt file in yolo format for validation purpose. In validation phase the model reached Mean Average Precision (mAP) of 0.91
+
 Following are some of the image results generated in validation phase
+
+![alt text](https://github.com/wasdac9/automatic-number-plate-recognition/blob/main/val_batch0_pred.jpg?raw=true)
+
+### Testing Phase
+The model was tested on various images and videos and the model generated accurate class and bounding box predictions.
+
+#### **Image Inference**
+Few of the images used for testing are included in the "test_images" folder. At test time the model generated 6-7 FPS on a batch of 30 images with a Meam Time of 0.15ms
+
+#### **Video Inference**
+A video that was used for testing is also included in the name "anpr_video.mp4". At inference this video was passed through the trained model and the output generated is saved as "output.mp4". At test time the model generated 8-9 FPS on i5 CPU and around 32 FPS on CUDA device.
+
+
 
