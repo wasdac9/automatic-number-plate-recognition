@@ -41,6 +41,8 @@ Following are some of the image results generated in validation phase:
 
 At the end of training and validation epochs, a weights file ("best.pt") is generated which consists of all the learned parameters of the model. 
 
+Refer to "ANPR_object_detection.ipynb" for more info about the training and validation process.
+
 ### Testing Phase
 The model was tested on various images and videos and the model generated accurate class and bounding box predictions. The weights file called "best.pt" that was generate in the training phase was used for inference in testing phase. Testing was carried out in PyTorch, and OpenCV was used when working with images and videos. OpenCV helped in loading, saving, drawing bounding boxes, and displaying text regarding class name and class confidence values.
 
