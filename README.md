@@ -37,7 +37,7 @@ The validation dataset consisted of 100 images along with their class and boundi
 
 Following are some of the image results generated in validation phase:
 
-![alt text](https://github.com/wasdac9/automatic-number-plate-recognition/blob/main/val_batch0_pred.jpg?raw=true)
+![alt text](https://github.com/wasdac9/automatic-number-plate-recognition/blob/main/val_pred.jpg?raw=true)
 
 At the end of training and validation epochs, a weights file ("best.pt") is generated which consists of all the learned parameters of the model. 
 
