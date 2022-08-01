@@ -84,7 +84,7 @@ An accurate object detection model was created to carry out Automatic Number Pla
 2) The model in its current state works very well on CUDA devices getting around 32 FPS but does perform well on CPU devices. Hence GPU hardware is required for smooth frame rate outputs.
 
 ## **Future Work**
-1) A bigger dataset can be used to train the model for more number of epochs to reduce the flase positive predictions.
+1) A bigger dataset can be used to train the model for more number of epochs to reduce the false positive predictions.
 2) This detection model can be uploaded on edge devices connected to CCTV cameras to carry out Number Plate Recognition live on the road.
 3) CCTV video footage can be used to read number plate of vehicles that commit traffic violations.
 4) The bounding box around the license plate can be cropped and Optical Character Recognition can be used to actually read the number plate.
